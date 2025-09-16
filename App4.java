@@ -17,6 +17,9 @@ public class App4 {
         p1.removeBalance(1);
         System.out.printf(p1.toString());
 
+        p1.removeBalance(6);
+        System.out.println(p1.toString());
+
         input.close();
     }
 }

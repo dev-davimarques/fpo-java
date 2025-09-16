@@ -48,7 +48,11 @@ public class Product {
         this.quantity += quantity;
     }
     public void removeBalance(int quantity){
-        this.quantity -= quantity;
+        if(this.quantity < quantity){
+            this.quantity = 0;
+        } else {
+            this.quantity -= quantity;
+        }
     }
 
 
