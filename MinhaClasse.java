@@ -1,4 +1,3 @@
-package firstClass;
 public class MinhaClasse {
     private String nome;
     private int anoNascimento;
